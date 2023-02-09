@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./public/images/logo-sm.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/images/logo-sm.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/images/logo-sm.png" /> -->
+    <title>Js Assignment 1</title>
+    <!-- Bootstrap 5 Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!--Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></head>
+    <!-- External css Link -->
+    <link rel="stylesheet" href="./public/style.css">
+<body>
+
+    <main>
+        <section class="my-5">
+            <div class="container">
+                <h3 class="text-white">Question 1</h3>
+                <div class="table-responsive my-5">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <th>variable 1</th>
+                            <th>variable 2</th>
+                            <th>variable 3</th>
+                            <th>Output</th>
+                        </thead>
+                        <tbody id="strconcat">
+                           
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="text-white">Question 2</h3>
+
+                <div class="row m-0 my-5">
+                    <div class="col-lg-12 p-0">
+                        <p class="text-white">Enter only one letter number or string</p>
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                        <input type="text" class="form-control" placeholder="Enter the any single letter" name="str" id="str">
+                    </div>
+                    <div class="col-lg-4">
+                        <button class="btn btn-success" id="btn1">Click here</button>
+                    </div>
+                </div>
+                <p class="text-white" id="result1"></p>
+
+                <h3 class="text-white">Question 3</h3>
+
+                <div class="row m-0 my-5">
+                    <div class="col-lg-6  mb-5 p-0 pe-lg-2">
+                        <input type="number" class="form-control" placeholder="Enter the Number" name="number1" id="number1">
+                    </div>
+                    <div class="col-lg-6  mb-5 p-0 ps-lg-2">
+                        <input type="number" class="form-control" placeholder="Enter the Number" name="number2" id="number2">
+                    </div>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <button class="btn btn-danger w-100 calculate" data-cal="add" id="add">+</button>
+                    </div>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <button class="btn btn-success w-100 calculate" data-cal="sub" id="sub">-</button>
+                    </div>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <button class="btn btn-warning w-100 calculate" data-cal="mul" id="mul">*</button>
+                    </div>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <button class="btn btn-info w-100 calculate"  data-cal="div" id="div">/</button>
+                    </div>
+                </div>
+                <p class="text-white" id="result2"></p>
+
+                <h3 class="text-white">Question 4</h3>
+
+                <div class="row m-0 my-5">
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <input type="text" class="form-control" placeholder="Enter the Number" name="num_1" id="num_1">
+                    </div>
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <input type="text" class="form-control" placeholder="Enter the Number" name="num_2" id="num_2">
+                    </div>
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <input type="text" class="form-control" placeholder="Enter the Number" name="num_3" id="num_3">
+                    </div>
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <button class="btn btn-success" id="clk">Click Me</button>
+                    </div>
+                </div>
+                <p class="text-white" id="result3"></p>
+
+                <h3 class="text-white">Question 5</h3>
+
+                <div class="row m-0 my-5">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <input type="number" class="form-control" placeholder="Enter the total number of unit" name="unit" id="unit">
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-success" id="bill">Check Bill</button>
+                    </div>
+                </div>
+                <p class="text-white" id="result4"></p>
+            </div>
+        </section>
+    </main>
+
+
+   <!-- Bootstrap 5 Script -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+   <!-- Jquery Link -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ====== Font Awesome Script ====== -->
+    <script src="https://kit.fontawesome.com/4c0f2f5b7d.js" crossorigin="anonymous"></script>
+
+    <script src="./public/script.js"></script>
+</body>
+</html>
